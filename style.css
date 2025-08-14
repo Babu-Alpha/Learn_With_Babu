@@ -588,4 +588,26 @@ button:hover,
   object-fit: cover;
   border-radius: 6px;
 }
+.certifications {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+}
+
+.tutor-badge {
+  display: inline-block;
+  background-color: #ff9800; /* your accent orange */
+  color: white;
+  padding: 0.4rem 0.8rem;
+  margin: 0 0.3rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.tutor-badge:hover {
+  background-color: #e68a00; /* darker orange on hover */
+  transform: scale(1.05);
+}
+
 
